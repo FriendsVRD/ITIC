@@ -9,7 +9,7 @@
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="freehtml5.co" />
 
-	<!--
+	<!-- 
 	//////////////////////////////////////////////////////
 
 	FREE HTML5 TEMPLATE 
@@ -36,7 +36,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-	<link rel="stylesheet" href="http://www.mycoffefriends.com/css/estilo.css">
+	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="http://www.mycoffefriends.com/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -49,8 +49,10 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="http://www.mycoffefriends.com/css/style.css">
 
+
+
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="http://www.mycoffefriends.com/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -66,15 +68,17 @@
 		<!-- <div class="top-menu"> -->
 			<div class="container">
 				<div class="row">
-					
+					<div class="col-xs-12 text-center logo-wrap">
+						<div id="fh5co-logo"><a href="http://www.mycoffefriends.com">Contactanos<span>.</span></a></div>
+					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
-							<li><a href="about.html">Nosotros</a></li>
-							<li><a href="gallery.html">Socursales</a></li>
+							<li><a href="http://www.mycoffefriends.com/index.html">Inicio</a></li>
+							<li><a href="http://www.mycoffefriends.com/about.html">Nosotros</a></li>
+							<li><a href="http://www.mycoffefriends.com/gallery.html">Socursales</a></li>
 							<li><a href="http://www.mycoffefriends.com/Cafeteria/public/Promociones">Promoción</a> </li>
-							<li><a href="http://www.mycoffefriends.com/Cafeteria/public/Reservacion">Reservación</a></li>
-							<li><a href="http://www.mycoffefriends.com/Cafeteria/public/Comentarios">Contactanos</a></li>
-							<li><a href="http://www.mycoffefriends.com/Cafeteria/public">Ingresar</a></li>
+              				<li><a href="http://www.mycoffefriends.com/Cafeteria/public/Reservacion">Reservación</a></li>
+              				<li><a href="http://www.mycoffefriends.com/Cafeteria/public">Ingresar</a></li>
 						</ul>
 					</div>
 				</div>
@@ -83,7 +87,7 @@
 		<!-- </div> -->
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 	      <div class="row">
@@ -95,67 +99,63 @@
 	          </div>
 	        </div>
 	      </div>
-    	</div>
+	    </div>
 	</header>
 
-
-
-	<div id="fh5co-gallery" class="fh5co-section">
+	
+	<div id="fh5co-contact" class="fh5co-section animate-box">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12 fh5co-heading text-center animate-box">
-					<h2>Conocenos</h2>
-					<p class="author"><cite>&mdash;Ven celebra tu cumpleaños<br></br>Disfruta</cite></p>
-					<div class="row">
-						
-					</div>
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Esperamos tu mensaje.</h2>
 				</div>
-				
-
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/cel.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/como.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-				<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/uff.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/por.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/cele.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/porr.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_6.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/comoo.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/com.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-				<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/ufff.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-
 			</div>
+			
+			<div class="row">
+				<div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6">
+
+					<form class="form-group" action="{{route('enviar_comentario')}}" method="POST">
+						{{csrf_field()}}
+
+					<div class="row form-group">
+							<div class="col-md-12">
+								<label for="name">Nombre</label>
+								<input type="text" class="form-control" id="name" name="nombre">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="email">Correo</label>
+								<input type="text" class="form-control" id="email" name="email">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="message">Mensaje</label>
+								<textarea id="message" cols="30" rows="10" class="form-control" name="comentario"></textarea>
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<button class="btn btn-primary btn-outline btn-lg" type="submit">Enviar</button>
+							</div>
+						</div>
+						
+					</form>
+
+				</div>
+			</div>
+
 		</div>
 	</div>
-		<!-- <div id="fh5co-blog" class="fh5co-section">
 
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Paulo</h2>
-					<blockquote>
-						<p><a href="http://www.mycoffefriends.com/menu.html" class="btn btn-primary btn-outline">Ayuda</a></p>
-					</blockquote>
-				</div>
-	</div> -->
-	
 
-	<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
+<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
     <div class="container">
       <div class="row row-pb-md">
         <div class="col-md-4 fh5co-widget">
           <h4></h4>
-          <ul class="fh5co-footer-links">
+ 	         <ul class="fh5co-footer-links">
 				<li> La Placita de Cantabria dentro del Fraccionamiento Bosques de Cantabria </li>
 				<li> Calle Huizache, manzana 58 lote 43. </li>
 				<li> 50200 San Nicolás Tolentino, Méx.</li>
@@ -183,21 +183,20 @@
 		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
 	</div>
 	
-	
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="http://www.mycoffefriends.com/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="http://www.mycoffefriends.com/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="http://www.mycoffefriends.com/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="http://www.mycoffefriends.com/js/jquery.waypoints.min.js"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.stellar.min.js"></script>
+	<script src="http://www.mycoffefriends.com/js/jquery.stellar.min.js"></script>
 	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="http://www.mycoffefriends.com/js/jquery.flexslider-min.js"></script>
 	<!-- Main -->
-	<script src="js/main.js"></script>
+	<script src="http://www.mycoffefriends.com/js/main.js"></script>
 
 	</body>
 </html>
